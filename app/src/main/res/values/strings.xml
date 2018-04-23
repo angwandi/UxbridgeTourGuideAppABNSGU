@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Uxbridge Tour Guide App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--Navigation drawer icon Text-->
+    <string name="nav_drawer_title_text">Welcome to Uxbridge</string>
+    <string name="camera">Camera</string>
+    <string name="communities">Communities</string>
+    <string name="galery">Galery</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="help">Help</string>
+    <!--Bottom Navigation icon text-->
+    <string name="home">Home</string>
+    <string name="events">Events</string>
+    <string name="restaurant">Restaurants</string>
+    <string name="history">Histories</string>
+    <!--TabLayout-->
+    <string name="event_yearly">Yearly</string>
+    <string name="event_monthly">Monthly</string>
+    <!--Home-->
+    <string name="uxbridge_description">Description and brief history</string>
+    <!--Restaurant-->
+    <!--Restaurant 01-->
+    <!--Restaurant 01 Title Text-->
+    <string name="rt1_cuisine">Cuisine</string>
+    <string name="rt1_mobile">Phone</string>
+    <string name="rt1__menu">Menu</string>
+    <string name="rt1__opening_hours">Open</string>
+    <string name="rt1__opening_address">Address</string>
+    <string name="rt1__details">About Us</string>
+    <!--Restaurant 01 Text-->
+    <string name="r1_name">Bella Italia</string>
+    <string name="r1_cuisine">Italian</string>
+    <string name="r1_mobile">01895553407</string>
+    <string name="r1_menu">www.bellaitalia.co.uk</string>
+    <string name="r1_opening_hours">Mon-Thu(9am-11pm), Fri-Sat(9am-11.30pm) and Sun(9am-10pm).</string>
+    <string name="r1_address">198 High St,Uxbridge UB8 1LB</string>
+    <string name="r1_details">Bubbly chain venue for Italian pasta, pizza and grill dishes, with a special children\'s menu.</string>
+    <!--Restaurant 02-->
+    <!--Restaurant 02 Title Text-->
+    <string name="rt2_cuisine">Cuisine</string>
+    <string name="rt2_mobile">Phone</string>
+    <string name="rt2__menu">Menu</string>
+    <string name="rt2__opening_hours">Open</string>
+    <string name="rt2__opening_address">Address</string>
+    <string name="rt2__details">About Us</string>
+    <!--Restaurant 02 Text-->
+    <string name="r2_name">Chutneys</string>
+    <string name="r2_cuisine">Indian</string>
+    <string name="r2_mobile">01895255777</string>
+    <string name="r2_menu">sites.kukd.com/chutneys-uxbridge</string>
+    <string name="r2_opening_hours">Open everyday(12–2pm, 6pm-12am).</string>
+    <string name="r2_address">26 Cowley Rd, Uxbridge UB8 2LT</string>
+    <string name="r2_details">Traditional Indian cuisine served in a vibrant, contemporary restaurant with an express lunch deal.</string>
+    <!--Restaurant 03-->
+    <!--Restaurant 03 Title Text-->
+    <string name="rt3_cuisine">Cuisine</string>
+    <string name="rt3_mobile">Phone</string>
+    <string name="rt3__menu">Menu</string>
+    <string name="rt3__opening_hours">Open</string>
+    <string name="rt3__opening_address">Address</string>
+    <string name="rt3__details">About Us</string>
+    <!--Restaurant 02 Text-->
+    <string name="r3_name">Curry Culture</string>
+    <string name="r3_cuisine">Thai food</string>
+    <string name="r3_mobile">01985231074</string>
+    <string name="r3_menu">www.currycultureuxbridge.co.uk</string>
+    <string name="r3_opening_hours">Tue–Sun(12–3pm , 5:30–11pm)</string>
+    <string name="r3_address">33 Rockingham Rd, Uxbridge </string>
+    <string name="r3_details">We are proud to say that we serve the best curry in Uxbridge. </string>
+    <!--Events-->
+    <!--Event Year-->
+    <!--Event Year Music chachacha-->
+    <string name="ey_date">Sun 22 Apr</string>
+    <string name="ey_time">14:00</string>
+    <string name="ey_name">Music Chachacha</string>
+    <string name="ey_location">High Street</string>
+    <string name="ey_organiser">Uxbridge Council</string>
+    <!--Event Month-->
+    <!--Event Month Uxbridge Boys-->
+    <string name="em_date">Sun 24 Apr</string>
+    <string name="em_time">15:00</string>
+    <string name="em_name">Uxbridge Boys</string>
+    <string name="em_location">Wembley Stadium</string>
+    <string name="em_organiser">Hillingdon Sport</string>
+    <!--Histories-->
+    <!--Site 01-->
+    <string name="h_place">Uxbridge Wood</string>
+    <string name="h_place_description">Uxbridge Woods Trust was established in 1997 as a charity.
+        Its aims are to protect the ecological environment of Uxbridge Woods
+        and to encourage greater access by the public through education,
+        monitoring and surveying.</string>
+    <string name="h_place_location">22 Aldridge Avenue, Eastcote, Ruislip, Middlesex HA4 9JU</string>
+</resources>

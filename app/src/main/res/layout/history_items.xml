@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            tools:src="@drawable/uxbridge_wood" />
+            tools:src="@drawable/uxbridge_wood"
+            android:contentDescription="@string/app_name" />
 
         <TextView
             android:id="@+id/hplace_title_text_view"
@@ -30,7 +31,8 @@
             android:layout_marginLeft="16dp"
             tools:text="Maison Uxbridge"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:layout_marginStart="16dp" />
 
         <TextView
             android:id="@+id/hplace_description_text_view"
@@ -65,7 +67,10 @@
             android:layout_below="@+id/hplace_description_text_view"
             android:layout_alignParentRight="true"
             style="?android:attr/borderlessButtonStyle"
-            android:tint="@android:color/darker_gray" />
+            android:tint="@android:color/darker_gray"
+            android:contentDescription="@string/app_name"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentEnd="true" />
 
         <ImageButton
             android:id="@+id/history_favorite_button"
@@ -76,6 +81,9 @@
             android:layout_below="@+id/hplace_description_text_view"
             android:layout_toLeftOf="@id/history_share_button"
             style="?android:attr/borderlessButtonStyle"
-            android:tint="@android:color/darker_gray" />
+            android:tint="@android:color/darker_gray"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/app_name"
+            android:layout_toStartOf="@id/history_share_button" />
     </RelativeLayout>
 </android.support.v7.widget.CardView>

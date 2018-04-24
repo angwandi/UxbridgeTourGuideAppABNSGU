@@ -87,12 +87,16 @@
     <string name="em_name">Uxbridge Boys</string>
     <string name="em_location">Wembley Stadium</string>
     <string name="em_organiser">Hillingdon Sport</string>
-    <!--Histories-->
-    <!--Site 01-->
-    <string name="h_place">Uxbridge Wood</string>
-    <string name="h_place_description">Uxbridge Woods Trust was established in 1997 as a charity.
+    <!--Histories details-->
+    <string name="item_title">Uxbridge Wood</string>>
+    <string name="item_description">Uxbridge Woods Trust was established in 1997 as a charity.
+        Its aims are to protect the ecological environment of Uxbridge Woods
+        and to encourage greater access by the public through education,
+        monitoring and surveying</string>
+    <string name="detail_title">Description</string>
+    <string name="h_detail_description">Uxbridge Woods Trust was established in 1997 as a charity.
         Its aims are to protect the ecological environment of Uxbridge Woods
         and to encourage greater access by the public through education,
         monitoring and surveying.</string>
-    <string name="h_place_location">22 Aldridge Avenue, Eastcote, Ruislip, Middlesex HA4 9JU</string>
+    <string name="h_detail_location">22 Aldridge Avenue, Eastcote, Ruislip, Middlesex HA4 9JU</string>
 </resources>

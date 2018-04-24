@@ -16,6 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import com.example.demad.uxbridgetourguideapp.Data.BottomNavigationBehavior;
 import com.example.demad.uxbridgetourguideapp.Data.BottomNavigationHelper;
 import com.example.demad.uxbridgetourguideapp.Fragments.EventsFragment;

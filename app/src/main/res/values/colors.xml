@@ -2,6 +2,6 @@
 <resources>
     <color name="colorPrimary">#4caf50</color>
     <color name="colorPrimaryDark">#43a047</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#4890e1</color>
     <color name="myBottomNavigation">#4caf50</color>
 </resources>

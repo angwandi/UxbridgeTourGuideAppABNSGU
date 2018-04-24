@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Historic places Names-->
+    <string-array name="h_places">
+        <item>Uxbridge Wood</item>
+        <item>St Margarets Church</item>
+        <item>St Georges Chapel</item>
+        <item>Chiltern Open Air Museum</item>
+        <item>Runnymede National Trust</item>
+    </string-array>
+    <!--Historic places descriptions-->
+    <string-array name="h_places_descriptions">
+        <item>Uxbridge Woods Trust was established in 1997 as a charity.
+        Its aims are to protect the ecological environment of Uxbridge Woods
+        and to encourage greater access by the public through education,
+        monitoring and surveying.
+        </item>
+        <item>
+            We seek to be a loving and welcoming
+            community inspired by the example of Jesus,
+            influenced by the vibrant life of God’s Spirit and
+            making a positive contribution to our town
+        </item>
+        <item>
+            To the Glory of God, and in grateful commemoration of His servants,
+            Thomas Cranmer, Nicholas Ridley, Hugh Latimer, Prelates of the Church of England,
+            who near this spot yielded their bodies to be burned, bearing witness to the sacred
+            truths which they had affirmed and maintained against the errors of the Church of Rome,
+            and rejoicing that to them it was given not only to believe in Christ, but also to suffer
+            for His sake; this monument was erected by public subscription in the year of our Lord God.
+        </item>
+        <item>
+            By the 1850s the population of both Hillingdon and Uxbridge
+            was beginning to rise. With new housing being built between the
+            two centres the then Vicar of Hillingdon, the Rev Richard Croft (1856–69)
+            gained permission to build a new church in the area, sometimes referred to
+            as Hillingdon West.
+        </item>
+        <item>
+            The dedication of the lime tree seat on the Village Green
+            in memory of long-standing volunteer Gladys Taaffe
+            Founded in 1976 to rescue threatened historic buildings
+            Chiltern Open Air Museum was founded in 1976 with the aim of
+            rescuing threatened buildings.  More than thirty historic building have
+            now been saved and rebuilt at the site, and there are more in store.
+            The Museum only accepts buildings that would otherwise be demolished.
+        </item>
+    </string-array>
+    <!--Historic sites locations-->
+    <string-array name="h_place_location">
+        <item>22 Aldridge Avenue, Eastcote, Ruislip, Middlesex HA4 9JU</item>
+        <item>Windsor Street, Uxbridge UB8 1AB, England</item>
+        <item>The Lynch | Opposite Capital Court, Uxbridge UB8 1AB, England</item>
+        <item>Castle Hill, Windsor, England</item>
+        <item>Newland Park Gorelands Lane, Chalfont St. Giles HP8 4AB, England</item>
+    </string-array>
+    <!--Historic sites pictures-->
+    <string-array name="h_places_images">
+        <item>@drawable/uxbridge_wood</item>
+        <item>@drawable/st_margaret_s_church</item>
+        <item>@drawable/st_george</item>
+        <item>@drawable/chiltern_open_air_museum</item>
+        <item>@drawable/runnymede</item>
+    </string-array>
+</resources>

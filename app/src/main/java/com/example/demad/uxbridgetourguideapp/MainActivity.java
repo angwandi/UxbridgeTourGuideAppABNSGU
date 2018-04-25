@@ -132,7 +132,12 @@ public class MainActivity extends AppCompatActivity
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
             }
         } else if (id == R.id.nav_galery) {
-            setTitle(R.string.galery);
+//            intent to only open the gallery
+            Intent intent = new Intent();
+            intent.setAction(android.content.Intent.ACTION_VIEW);
+            intent.setType("image/*");
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
         } else if (id == R.id.nav_communities) {
             setTitle(R.string.communities);
         } else if (id == R.id.nav_contact_us) {

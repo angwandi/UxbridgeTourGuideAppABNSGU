@@ -22,7 +22,39 @@
     <string name="event_yearly">Yearly</string>
     <string name="event_monthly">Monthly</string>
     <!--Home-->
-    <string name="uxbridge_description">Description and brief history</string>
+    <!--Home Periods-->
+    <string name="period_MiddleAges">Middle Ages</string>
+    <string name="period_SixteenthCentury">Sixteenth Century</string>
+    <string name="period_SeventeenthCentury">Seventeenth Century</string>
+    <string name="period_EighteenthCentury">Eighteenth Century</string>
+    <string name="period_NineteenthCentury">Nineteenth Century</string>
+    <string name="period_TwentiethCentury">Twentieth Century</string>
+    <!--Home-->
+    <!--Home Text-->
+    <string name="text_MiddleAges">Throughout the Middle Ages Uxbridge formed part of the manor of
+        Colham, which was in turn part of the Honor of Wallingford in Berkshire.
+        About the year 1180 Gilbert Basset, keeper of the Honor, granted the people
+        of Uxbridge permission to hold a market every Thursday.</string>
+    <string name="text_SixteenthCentury">Until the nineteenth century the prosperity of Uxbridge
+        depended on its market. It was the major corn market for west Middlesex and south
+        Buckinghamshire and was a very important flour milling centre, with about thirteen
+        mills along the Colne and Frays rivers. </string>
+    <string name="text_SeventeenthCentury">The seventeenth century was marked by conflict.
+        From 1630 to 1633 the townsfolk were in dispute with the Countess of Derby over the
+        payment of market tolls. This was finally resolved and the occasion marked with a banquet.
+        A painting of this can be seen in the Central Library.</string>
+    <string name="text_EighteenthCentury">Eighteenth CenturyThroughout the eighteenth century
+        the market and town prospered. Equally important was the coaching trade. At the end of
+        the century up to forty stage coaches a day passed through the town, all stopping to
+        change horses, plus all the private traffic.</string>
+    <string name="text_NineteenthCentury">During the nineteenth century the importance of the
+        agricultural market declined and other industries replaced it. Brickmaking around Cowley was
+        especially important. Other industries also increased and led to building development around
+        the town.</string>
+    <string name="text_TwentiethCentury">The century saw rapid change. The Metropolitan Railway
+        reached Uxbridge in 1904 as did the trams. High Street Station, a branch to the Great Central
+        Railway opened in 1907 but closed to passenger transport in 1939. In 1918 the Royal Flying
+        Corps (soon to be the Royal Air Force) moved into Hillingdon House.</string>
     <!--Restaurant-->
     <!--Restaurant 01-->
     <!--Restaurant 01 Title Text-->
@@ -80,6 +112,13 @@
     <string name="ey_name">Music Chachacha</string>
     <string name="ey_location">High Street</string>
     <string name="ey_organiser">Uxbridge Council</string>
+    <!--Event Year-->
+    <!--Event Year Swim ChapChap-->
+    <string name="eyswim_date">Fri 26 May</string>
+    <string name="eyswim_time">11:00</string>
+    <string name="eyswim_name">Swim Chapchap</string>
+    <string name="eyswim_location">Uxbridge Leisure Center</string>
+    <string name="eyswim_organiser">Uxbridge Council</string>
     <!--Event Month-->
     <!--Event Month Uxbridge Boys-->
     <string name="em_date">Sun 24 Apr</string>

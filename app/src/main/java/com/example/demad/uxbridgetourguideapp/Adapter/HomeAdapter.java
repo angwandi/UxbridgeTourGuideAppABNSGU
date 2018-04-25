@@ -39,6 +39,9 @@ public class HomeAdapter extends ArrayAdapter<Home> {
 //        Find the TextView in the content main layout with the ID HomeText_text_view
         TextView homeTextTextView = listItemView.findViewById(R.id.homeText_text_view);
         homeTextTextView.setText(currentHome.getHomeText());
+//        Find the TextView in the content main layout with the ID homePeriod_text_view
+        TextView homePeriodTextView = listItemView.findViewById(R.id.homePeriod_text_view);
+        homePeriodTextView.setText(currentHome.getHomePeriod());
 //        Find the ImageView in the content main layout with the ID homeImage_image_view
         ImageView imageView = listItemView.findViewById(R.id.homeImage_image_view);
         imageView.setImageResource(currentHome.getImageResourceId());

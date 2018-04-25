@@ -1,6 +1,8 @@
 package com.example.demad.uxbridgetourguideapp.Fragments;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +26,7 @@ public class EventYearlyFragment extends Fragment {
         // Required empty public constructor
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -34,50 +37,49 @@ public class EventYearlyFragment extends Fragment {
         final ArrayList<EventYear> eventYears = new ArrayList<>();
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
-        eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
+        eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
 //        Following the same procedure as of HomeFragment for Documentation
-        EventYearAdapter adapter = new EventYearAdapter(getActivity(),eventYears,R.color.myBottomNavigation);
+        EventYearAdapter adapter = new EventYearAdapter(getActivity(), eventYears, R.color.myBottomNavigation);
         ListView listView = rootView.findViewById(R.id.list_event_yearly);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(),"Will display details after next update!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Will display details after next update!", Toast.LENGTH_SHORT).show();
             }
         });
         //For the pressed states on the list item view
         listView.setDrawSelectorOnTop(true);
+        listView.setNestedScrollingEnabled(true);
         return rootView;
     }
 }

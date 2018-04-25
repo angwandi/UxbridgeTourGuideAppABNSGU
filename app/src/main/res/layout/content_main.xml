@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:drawable/dialog_holo_light_frame"
-    android:orientation="vertical"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="horizontal"
+    android:cropToPadding="false"
+  android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
-    <!--tools:showIn="@layout/app_bar_main">-->
+
     <ImageView
         android:id="@+id/homeImage_image_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:fitsSystemWindows="true"
         android:scaleType="centerCrop"
         android:src="@drawable/uxbridge" />
 
-    <TextView
-        android:id="@+id/homeText_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+    <RelativeLayout
+        android:layout_width="0dp"
         android:layout_weight="1"
-        android:text="@string/uxbridge_description" />
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/homePeriod_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1950"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/homeText_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/homePeriod_text_view"
+            android:text="@string/h_detail_description" />
+
+    </RelativeLayout>
+
+
+
 </LinearLayout>

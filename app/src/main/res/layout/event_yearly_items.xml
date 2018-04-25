@@ -1,32 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:drawable/dialog_holo_light_frame">
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:orientation="horizontal"
+    android:padding="16dp">
 
-<TextView
-    android:id="@+id/ey_date_text_view"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/ey_date"/>
-    <TextView
-        android:id="@+id/ey_time_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ey_time"/>
-    <TextView
-        android:id="@+id/ey_name_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ey_name"/>
-    <TextView
-        android:id="@+id/ey_location_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ey_location"/>
-    <TextView
-        android:id="@+id/ey_organiser_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ey_organiser"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ey_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ey_date"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ey_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ey_time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ey_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ey_name"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ey_location_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ey_location" />
+
+        <TextView
+            android:id="@+id/ey_organiser_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ey_organiser" />
+    </LinearLayout>
 </LinearLayout>
+

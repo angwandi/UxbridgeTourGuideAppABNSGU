@@ -8,5 +8,4 @@
     android:paddingBottom="16dp"
     android:paddingTop="16dp"
     android:scrollbars="vertical"
-    android:nestedScrollingEnabled="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior" />

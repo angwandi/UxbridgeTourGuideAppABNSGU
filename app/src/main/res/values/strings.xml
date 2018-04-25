@@ -99,4 +99,8 @@
         and to encourage greater access by the public through education,
         monitoring and surveying.</string>
     <string name="h_detail_location">22 Aldridge Avenue, Eastcote, Ruislip, Middlesex HA4 9JU</string>
+    <!--Snackbar Text-->
+    <string name="add_to_list">Added to your list</string>
+    <string name="favorite">Added to your favorite</string>
+    <string name="share">Shared with friends</string>
 </resources>

@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -25,8 +24,7 @@ import java.util.ArrayList;
 public class CommunityFragment extends Fragment {
     //    Create a new instance of CommunityFragment
     public static CommunityFragment newInstance() {
-        CommunityFragment fragment = new CommunityFragment();
-        return fragment;
+        return new CommunityFragment();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

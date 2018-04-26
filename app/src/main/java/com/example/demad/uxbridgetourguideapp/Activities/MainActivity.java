@@ -19,6 +19,7 @@ import android.view.MenuItem;
 
 import com.example.demad.uxbridgetourguideapp.Data.BottomNavigationBehavior;
 import com.example.demad.uxbridgetourguideapp.Data.BottomNavigationHelper;
+import com.example.demad.uxbridgetourguideapp.Fragments.CommunityFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.EventsFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.HistoryFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.HomeFragment;
@@ -27,6 +28,8 @@ import com.example.demad.uxbridgetourguideapp.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    Fragment fragment = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,8 +58,6 @@ public class MainActivity extends AppCompatActivity
         //Onclick events
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
-                    Fragment fragment = null;
-
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
@@ -140,9 +141,13 @@ public class MainActivity extends AppCompatActivity
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         } else if (id == R.id.nav_communities) {
+            fragment = CommunityFragment.newInstance();
             setTitle(R.string.communities);
-
         }
+        //Insert the fragment by replacing any existing fragment
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.main_container, new CommunityFragment());
+        transaction.commit();
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -11,13 +11,9 @@
             android:id="@+id/nav_galery"
             android:icon="@drawable/ic_nav_drawer_menu_gallery"
             android:title="@string/galery" />
+        <item
+            android:id="@+id/nav_communities"
+            android:icon="@drawable/ic_nav_drawer_menu_communities"
+            android:title="@string/communities" />
     </group>
-    <item android:title="@string/other">
-        <menu>
-            <item
-                android:id="@+id/nav_communities"
-                android:icon="@drawable/ic_nav_drawer_menu_communities"
-                android:title="@string/communities" />
-        </menu>
-    </item>
 </menu>

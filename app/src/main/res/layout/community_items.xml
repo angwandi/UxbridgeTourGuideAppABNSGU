@@ -9,8 +9,9 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp">
+    android:paddingLeft="78dp">
     <TextView
+        android:paddingTop="16dp"
         android:id="@+id/com_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +20,7 @@
         android:paddingBottom="16dp"
         android:textSize="24sp"/>
     <TextView
+        android:paddingRight="16dp"
         android:id="@+id/com_details_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,10 +30,12 @@
         android:id="@+id/com_join__button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAlignment="textStart"
         style="?android:attr/borderlessButtonStyle"
         android:textColor="?attr/colorPrimary"
        android:layout_below="@id/com_details_text_view"
-        android:text="Join" />
+        android:text="Join"
+        android:gravity="start" />
 
 </RelativeLayout>
 

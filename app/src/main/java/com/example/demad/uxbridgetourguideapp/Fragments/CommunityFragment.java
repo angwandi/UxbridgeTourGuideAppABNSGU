@@ -1,25 +1,67 @@
 package com.example.demad.uxbridgetourguideapp.Fragments;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
+import com.example.demad.uxbridgetourguideapp.Adapter.CommunityAdapter;
+import com.example.demad.uxbridgetourguideapp.Data.Community;
 import com.example.demad.uxbridgetourguideapp.R;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class CommunityFragment extends Fragment {
-    public CommunityFragment() {
-        // Required empty public constructor
+//    Create a new instance of CommunityFragment
+    public static CommunityFragment newInstance() {
+        CommunityFragment fragment = new CommunityFragment();
+        return fragment;
+
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.community_items, container, false);
+        View rootView = inflater.inflate(R.layout.community_list, container, false);
+//        Create a list for Communities
+        final ArrayList<Community> communities = new ArrayList<>();
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        communities.add(new Community(R.string.com_name,R.string.com_details));
+        CommunityAdapter adapter = new CommunityAdapter(getActivity(),communities,R.color.myBottomNavigation);
+        ListView listView = rootView.findViewById(R.id.list_communities);
+        listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(),"Details screen coming soon",Toast.LENGTH_SHORT).show();
+            }
+        });
+        listView.setNestedScrollingEnabled(true);
+        return rootView;
+
     }
 }

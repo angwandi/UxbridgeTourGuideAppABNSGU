@@ -5,9 +5,9 @@ public class Community {
     private int mcomName;
     private int mcomDetails;
 //    Create Community Object
-    public Community(int comname, int comdetails){
-        mcomName = comname;
-        mcomDetails = comdetails;
+    public Community(int comName, int comDetails){
+        mcomName = comName;
+        mcomDetails = comDetails;
     }
 //    Get String resource IDs
 

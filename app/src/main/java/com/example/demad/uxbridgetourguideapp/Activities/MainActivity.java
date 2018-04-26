@@ -1,4 +1,4 @@
-package com.example.demad.uxbridgetourguideapp;
+package com.example.demad.uxbridgetourguideapp.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,6 +23,7 @@ import com.example.demad.uxbridgetourguideapp.Fragments.EventsFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.HistoryFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.HomeFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.RestaurantsFragment;
+import com.example.demad.uxbridgetourguideapp.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

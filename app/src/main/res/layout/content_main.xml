@@ -9,7 +9,7 @@
   android:paddingTop="16dp"
     android:paddingBottom="16dp"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".Activities.MainActivity">
 
     <ImageView
         android:id="@+id/homeImage_image_view"

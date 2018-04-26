@@ -1,4 +1,4 @@
-package com.example.demad.uxbridgetourguideapp;
+package com.example.demad.uxbridgetourguideapp.Activities;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.demad.uxbridgetourguideapp.R;
 
 public class HistoryDetailsActivity extends AppCompatActivity {
     public static final String EXTRA_POSITION = "position";

@@ -20,7 +20,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.demad.uxbridgetourguideapp.HistoryDetailsActivity;
+import com.example.demad.uxbridgetourguideapp.Activities.HistoryDetailsActivity;
 import com.example.demad.uxbridgetourguideapp.R;
 
 /**

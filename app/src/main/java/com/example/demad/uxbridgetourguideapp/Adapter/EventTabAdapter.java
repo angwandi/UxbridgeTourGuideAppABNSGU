@@ -2,14 +2,12 @@ package com.example.demad.uxbridgetourguideapp.Adapter;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.demad.uxbridgetourguideapp.Fragments.EventMonthlyFragment;
 import com.example.demad.uxbridgetourguideapp.Fragments.EventYearlyFragment;
-import com.example.demad.uxbridgetourguideapp.MainActivity;
 import com.example.demad.uxbridgetourguideapp.R;
 
 public class EventTabAdapter extends FragmentPagerAdapter {

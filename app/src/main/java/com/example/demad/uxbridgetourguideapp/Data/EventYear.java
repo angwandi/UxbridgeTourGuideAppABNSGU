@@ -3,17 +3,17 @@ package com.example.demad.uxbridgetourguideapp.Data;
 public class EventYear {
     /**
      * String resource IDs
-    * */
-    private  int eyDate;
+     */
+    private int eyDate;
     private int eyTime;
-    private  int eyName;
+    private int eyName;
     private int eyLocation;
-    private  int eyOrganiser;
+    private int eyOrganiser;
 
     /**
      * Create an EventYear object
-     * */
-    public EventYear(int eydate, int eytime, int eyname, int eylocation, int eyorganiser){
+     */
+    public EventYear(int eydate, int eytime, int eyname, int eylocation, int eyorganiser) {
         eyDate = eydate;
         eyTime = eytime;
         eyName = eyname;
@@ -22,8 +22,8 @@ public class EventYear {
     }
 
     /*
-    * Get all the resource IDS
-    * */
+     * Get all the resource IDS
+     * */
 
     public int getEyDate() {
         return eyDate;

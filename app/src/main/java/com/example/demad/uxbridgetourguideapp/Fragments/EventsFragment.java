@@ -30,7 +30,7 @@ public class EventsFragment extends android.support.v4.app.Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView;
-        rootView= inflater.inflate(R.layout.event_tabs, container, false);
+        rootView = inflater.inflate(R.layout.event_tabs, container, false);
         // Find the view pager that will allow the user to swipe between events child fragments
         ViewPager viewPager = rootView.findViewById(R.id.viewpager);
         //Create an adapter that knows which fragment should be shown on each page

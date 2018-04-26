@@ -15,12 +15,9 @@ import com.example.demad.uxbridgetourguideapp.R;
 
 import java.util.ArrayList;
 
-public class EventMonthAdapter extends ArrayAdapter<EventMonth>{
-    private int mColorResourceID;
-
-    public EventMonthAdapter( Context context, ArrayList<EventMonth> eventMonths, int colorResourceID) {
+public class EventMonthAdapter extends ArrayAdapter<EventMonth> {
+    public EventMonthAdapter(Context context, ArrayList<EventMonth> eventMonths, int colorResourceID) {
         super(context, 0, eventMonths);
-        mColorResourceID = colorResourceID;
     }
 
     @NonNull

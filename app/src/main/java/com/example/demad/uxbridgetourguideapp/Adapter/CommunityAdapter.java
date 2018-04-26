@@ -15,9 +15,9 @@ import com.example.demad.uxbridgetourguideapp.R;
 import java.util.ArrayList;
 
 public class CommunityAdapter extends ArrayAdapter<Community> {
-    private int mColorResourceId;
     public CommunityAdapter(Context context, ArrayList<Community> communities, int colorResourceId) {
         super(context, 0, communities);
+        int mColorResourceId;
         mColorResourceId = colorResourceId;
     }
 

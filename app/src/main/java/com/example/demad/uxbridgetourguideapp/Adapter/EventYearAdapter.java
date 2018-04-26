@@ -14,13 +14,14 @@ import com.example.demad.uxbridgetourguideapp.R;
 
 import java.util.ArrayList;
 
-public class EventYearAdapter extends ArrayAdapter<EventYear>{
+public class EventYearAdapter extends ArrayAdapter<EventYear> {
     //    Create a new EventYearAdapter object
-    public EventYearAdapter(Context context,ArrayList<EventYear> eventYears, int colorResourceID){
-        super(context,0,eventYears);
+    public EventYearAdapter(Context context, ArrayList<EventYear> eventYears, int colorResourceID) {
+        super(context, 0, eventYears);
         int mColorResourceID;
         mColorResourceID = colorResourceID;
     }
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {

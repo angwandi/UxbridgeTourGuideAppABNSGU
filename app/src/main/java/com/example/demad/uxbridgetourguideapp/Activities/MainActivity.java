@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity
             fragment = CommunityFragment.newInstance();
             setTitle(R.string.communities);
         }
-        //Insert the fragment by replacing any existing fragment
+        //Insert the CommunityFragment by replacing any existing fragment
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.main_container, new CommunityFragment());
         transaction.commit();

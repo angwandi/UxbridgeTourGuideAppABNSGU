@@ -30,7 +30,7 @@ public class EventYearlyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.event_yearly_list, container, false);
+        View rootView = inflater.inflate(R.layout.list, container, false);
         /*
          * Create a list of event yearly
          * */
@@ -67,9 +67,9 @@ public class EventYearlyFragment extends Fragment {
         eventYears.add(new EventYear(R.string.ey_date, R.string.ey_time, R.string.ey_name, R.string.ey_location, R.string.ey_organiser));
         eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
-//        Following the same procedure as of HomeFragment for Documentation
+        //        Following the same procedure as of HomeFragment for Documentation
         EventYearAdapter adapter = new EventYearAdapter(getActivity(), eventYears, R.color.myBottomNavigation);
-        ListView listView = rootView.findViewById(R.id.list_event_yearly);
+        ListView listView = rootView.findViewById(R.id.list_all);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -79,6 +79,7 @@ public class EventYearlyFragment extends Fragment {
         });
         //For the pressed states on the list item view
         listView.setDrawSelectorOnTop(true);
+        //        ListView scrolling behavior
         listView.setNestedScrollingEnabled(true);
         return rootView;
     }

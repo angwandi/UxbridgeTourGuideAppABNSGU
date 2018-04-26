@@ -6,11 +6,6 @@ import android.support.v4.view.ViewCompat;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import java.lang.annotation.Annotation;
-
-//BottomNavigation behavior
-
-@SuppressWarnings("deprecation")
 public class BottomNavigationBehavior extends CoordinatorLayout.Behavior<BottomNavigationView> {
     public BottomNavigationBehavior() {
         super();
@@ -18,12 +13,11 @@ public class BottomNavigationBehavior extends CoordinatorLayout.Behavior<BottomN
 
     @Override
     public boolean layoutDependsOn(CoordinatorLayout parent, BottomNavigationView child, View dependency) {
-        boolean dependsOn = dependency instanceof FrameLayout;
-        return dependsOn;
+        return dependency instanceof FrameLayout;
     }
 
     @Override
-    public boolean  onStartNestedScroll(CoordinatorLayout coordinatorLayout, BottomNavigationView child, View directTargetChild, View target, int nestedScrollAxes) {
+    public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout, BottomNavigationView child, View directTargetChild, View target, int nestedScrollAxes) {
         return nestedScrollAxes == ViewCompat.SCROLL_AXIS_VERTICAL;
     }
 
@@ -43,6 +37,4 @@ public class BottomNavigationBehavior extends CoordinatorLayout.Behavior<BottomN
     private void showBottomNavigationView(BottomNavigationView view) {
         view.animate().translationY(0);
     }
-
-
 }

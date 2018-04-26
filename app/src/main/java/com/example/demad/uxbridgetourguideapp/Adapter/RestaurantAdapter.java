@@ -15,11 +15,11 @@ import com.example.demad.uxbridgetourguideapp.R;
 
 import java.util.ArrayList;
 
-public class RestaurantAdapter extends ArrayAdapter<Restaurants>  {
-    private int mColorResourceId;
-//    Create a new RestaurantAdapter Object.
-    public RestaurantAdapter(Context context, ArrayList<Restaurants> restaurants, int colorResourceId){
-        super(context,0,restaurants);
+public class RestaurantAdapter extends ArrayAdapter<Restaurants> {
+    //    Create a new RestaurantAdapter Object.
+    public RestaurantAdapter(Context context, ArrayList<Restaurants> restaurants, int colorResourceId) {
+        super(context, 0, restaurants);
+        int mColorResourceId;
         mColorResourceId = colorResourceId;
     }
 
@@ -28,8 +28,8 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurants>  {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         //        Check if he existing view is being used, otherwise inflate the view
         View listItemView = convertView;
-        if (listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.restaurant_items,parent,false);
+        if (listItemView == null) {
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.restaurant_items, parent, false);
         }
 //        Same as of HomeAdapter
         Restaurants currentRestaurant = getItem(position);

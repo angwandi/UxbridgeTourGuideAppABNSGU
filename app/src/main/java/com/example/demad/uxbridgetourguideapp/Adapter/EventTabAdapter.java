@@ -18,9 +18,10 @@ public class EventTabAdapter extends FragmentPagerAdapter {
 
     /**
      * Create a new {@link EventTabAdapter} object.
-     * @param fm      is the fragment manager that will keep each fragment's state in the adapter
+     *
+     * @param fm is the fragment manager that will keep each fragment's state in the adapter
      */
-    public EventTabAdapter(Context context,FragmentManager fm) {
+    public EventTabAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }

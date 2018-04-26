@@ -3,7 +3,6 @@ package com.example.demad.uxbridgetourguideapp.Adapter;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,10 +18,10 @@ import java.util.ArrayList;
 //based on a data source, which is a list of Home objects.
 
 public class HomeAdapter extends ArrayAdapter<Home> {
-    private int mColorResourceId;
-//    Create a new HomeAdapter object
-    public HomeAdapter(Context context,ArrayList<Home> homes,int colorResourceId){
-        super(context,0,homes);
+    //    Create a new HomeAdapter object
+    public HomeAdapter(Context context, ArrayList<Home> homes, int colorResourceId) {
+        super(context, 0, homes);
+        int mColorResourceId;
         mColorResourceId = colorResourceId;
     }
 
@@ -31,8 +30,8 @@ public class HomeAdapter extends ArrayAdapter<Home> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 //        Check if he existing view is being used, otherwise inflate the view
         View listItemView = convertView;
-        if (listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.content_main,parent,false);
+        if (listItemView == null) {
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.content_main, parent, false);
         }
 //        Get the Home object located at this position in the list
         Home currentHome = getItem(position);

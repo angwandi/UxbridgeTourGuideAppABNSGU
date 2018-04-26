@@ -76,7 +76,6 @@ public class HomeFragment extends android.support.v4.app.Fragment {
         HomeAdapter adapter = new HomeAdapter(getActivity(), homes, R.color.colorAccent);
         //        Find the ListView object in the view hierarchy of the Activity.
         //        There should be a ListView with the view ID called home_list, which is declared in the
-        //        home_list.xml layout file.
         ListView listView = rootView.findViewById(R.id.list_all);
         //        Make the ListView use the HomeAdapter I created above, so that the
         //        the ListView will display content_main items for each homes in the list.

@@ -1,135 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:layout_marginBottom="16dp"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp"
+    android:background="@android:drawable/dialog_holo_light_frame"
     android:foreground="?attr/selectableItemBackground"
     android:orientation="vertical">
 
+    <ImageView
+        android:id="@+id/restaurant_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/italian" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/restaurant_image_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/app_name"
-            android:scaleType="centerCrop"
-            android:src="@drawable/italian" />
+        <TextView
+            android:id="@+id/rName_text_view"
+            style="@style/Base.TextAppearance.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/r1_name"
+            android:textSize="24sp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_gravity="center"
-            android:layout_weight="1.5"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:id="@+id/cuisine_LL"
+            style="@style/restaurant_titletext_and_text_linearlayout_style">
 
             <TextView
-                android:id="@+id/rName_text_view"
-                style="@style/Base.TextAppearance.AppCompat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="8dp"
-                android:text="@string/r1_name"
-                android:textSize="24sp" />
+                android:id="@+id/rtCuisine_text_view"
+                style="@style/restaurant_title_text_style"
+                android:text="@string/rt1_cuisine" />
 
-            <LinearLayout
-                android:id="@+id/cuisine_LL"
-                style="@style/restaurant_titletext_and_text_linearlayout_style">
+            <TextView
+                android:id="@+id/rCuisine_text_view"
+                style="@style/restaurant_text_style"
+                android:text="@string/r1_cuisine" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/rtCuisine_text_view"
-                    style="@style/restaurant_title_text_style"
-                    android:text="@string/rt1_cuisine" />
+        <LinearLayout
+            android:id="@+id/mobile_LL"
+            style="@style/restaurant_titletext_and_text_linearlayout_style">
 
-                <TextView
-                    android:id="@+id/rCuisine_text_view"
-                    style="@style/restaurant_text_style"
-                    android:text="@string/r1_cuisine" />
-            </LinearLayout>
+            <TextView
+                style="@style/restaurant_title_text_style"
+                android:text="@string/rt1_mobile" />
 
-            <LinearLayout
-                android:id="@+id/mobile_LL"
-                style="@style/restaurant_titletext_and_text_linearlayout_style">
+            <TextView
+                android:id="@+id/rMobile_text_view"
+                style="@style/restaurant_text_style"
+                android:text="@string/r1_mobile" />
+        </LinearLayout>
 
-                <TextView
-                    style="@style/restaurant_title_text_style"
-                    android:text="@string/rt1_mobile" />
+        <LinearLayout
+            android:id="@+id/menu_LL"
+            style="@style/restaurant_titletext_and_text_linearlayout_style">
 
-                <TextView
-                    android:id="@+id/rMobile_text_view"
-                    style="@style/restaurant_text_style"
-                    android:text="@string/r1_mobile" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/rtMenu_text_view"
+                style="@style/restaurant_title_text_style"
+                android:text="@string/rt1__menu" />
 
-            <LinearLayout
-                android:id="@+id/menu_LL"
-                style="@style/restaurant_titletext_and_text_linearlayout_style">
+            <TextView
+                android:id="@+id/rMenu_text_view"
+                style="@style/restaurant_text_style"
+                android:text="@string/r1_menu" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/rtMenu_text_view"
-                    style="@style/restaurant_title_text_style"
-                    android:text="@string/rt1__menu" />
+        <LinearLayout
+            android:id="@+id/opening_hours_LL"
+            style="@style/restaurant_titletext_and_text_linearlayout_style">
 
-                <TextView
-                    android:id="@+id/rMenu_text_view"
-                    style="@style/restaurant_text_style"
-                    android:text="@string/r1_menu" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/rtOpeningHours_text_view"
+                style="@style/restaurant_title_text_style"
+                android:text="@string/rt1__opening_hours" />
 
-            <LinearLayout
-                android:id="@+id/opening_hours_LL"
-                style="@style/restaurant_titletext_and_text_linearlayout_style">
+            <TextView
+                android:id="@+id/rOpeningHours_text_view"
+                style="@style/restaurant_text_style"
+                android:text="@string/r1_opening_hours" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/rtOpeningHours_text_view"
-                    style="@style/restaurant_title_text_style"
-                    android:text="@string/rt1__opening_hours" />
+        <LinearLayout
+            android:id="@+id/address_LL"
+            style="@style/restaurant_titletext_and_text_linearlayout_style">
 
-                <TextView
-                    android:id="@+id/rOpeningHours_text_view"
-                    style="@style/restaurant_text_style"
-                    android:text="@string/r1_opening_hours" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/rtAddress_text_view"
+                style="@style/restaurant_title_text_style"
+                android:text="@string/rt1__opening_address" />
 
-            <LinearLayout
-                android:id="@+id/address_LL"
-                style="@style/restaurant_titletext_and_text_linearlayout_style">
+            <TextView
+                android:id="@+id/rAddress_text_view"
+                style="@style/restaurant_text_style"
+                android:text="@string/r1_address" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/rtAddress_text_view"
-                    style="@style/restaurant_title_text_style"
-                    android:text="@string/rt1__opening_address" />
+        <LinearLayout
+            android:id="@+id/details_LL"
+            style="@style/restaurant_titletext_and_text_linearlayout_style">
 
-                <TextView
-                    android:id="@+id/rAddress_text_view"
-                    style="@style/restaurant_text_style"
-                    android:text="@string/r1_address" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/rtDetails_text_view"
+                style="@style/restaurant_title_text_style"
+                android:text="@string/rt1__details" />
 
-            <LinearLayout
-                android:id="@+id/details_LL"
-                style="@style/restaurant_titletext_and_text_linearlayout_style">
-
-                <TextView
-                    android:id="@+id/rtDetails_text_view"
-                    style="@style/restaurant_title_text_style"
-                    android:text="@string/rt1__details" />
-
-                <TextView
-                    android:id="@+id/rDetails_text_view"
-                    style="@style/restaurant_text_style"
-                    android:text="@string/r1_details" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/rDetails_text_view"
+                style="@style/restaurant_text_style"
+                android:text="@string/r1_details" />
         </LinearLayout>
     </LinearLayout>
-</android.support.v7.widget.CardView>
+</LinearLayout>
+

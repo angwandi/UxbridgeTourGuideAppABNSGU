@@ -6,36 +6,25 @@
     android:orientation="vertical"
     tools:context=".Fragments.CommunityFragment">
 
+    <TextView
+        android:id="@+id/com_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/com_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/com_name_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:text="@string/com_name"
-            android:textColor="@color/colorPrimary"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/com_details_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/com_name_text_view"
-            android:paddingRight="16dp"
-            android:text="@string/com_details"
-            android:paddingEnd="16dp"
-            tools:ignore="RtlSymmetry" />
-
-        <Button
-            android:id="@+id/com_join__button"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/com_details_text_view"
-            android:gravity="start"
-            android:text="Join"
-            android:textAlignment="textStart"
-            android:textColor="?attr/colorPrimary" />
-    </RelativeLayout>
+    <TextView
+        android:id="@+id/com_details_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/com_name_text_view"
+        android:paddingBottom="16dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/com_details"
+        tools:ignore="RtlSymmetry" />
+</RelativeLayout>
 

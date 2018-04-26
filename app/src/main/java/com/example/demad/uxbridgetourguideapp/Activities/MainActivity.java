@@ -141,8 +141,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_communities) {
             setTitle(R.string.communities);
-        } else if (id == R.id.nav_contact_us) {
-            setTitle(R.string.contact_us);
+
         }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

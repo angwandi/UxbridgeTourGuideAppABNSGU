@@ -3,10 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Fragments.CommunityFragment">
-    <!-- TODO: Update blank fragment layout -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
     <TextView
+        android:id="@+id/com_name_text_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/com_name"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="16dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/com_details_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/com_name_text_view"
+        android:text="@string/com_details"/>
+    <Button
+        android:id="@+id/com_join__button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="?attr/colorPrimary"
+       android:layout_below="@id/com_details_text_view"
+        android:text="Join" />
+
+</RelativeLayout>
+
 </FrameLayout>

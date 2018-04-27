@@ -50,7 +50,7 @@ public class CommunityFragment extends Fragment {
         communities.add(new Community(R.string.com_name, R.string.com_details));
         communities.add(new Community(R.string.com_name, R.string.com_details));
         communities.add(new Community(R.string.com_name, R.string.com_details));
-        CommunityAdapter adapter = new CommunityAdapter(getActivity(), communities, R.color.myBottomNavigation);
+        CommunityAdapter adapter = new CommunityAdapter(getActivity(), communities);
         ListView listView = rootView.findViewById(R.id.list_all);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

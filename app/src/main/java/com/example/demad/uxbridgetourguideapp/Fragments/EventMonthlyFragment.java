@@ -59,7 +59,7 @@ public class EventMonthlyFragment extends Fragment {
         eventMonths.add(new EventMonth(R.string.em_date, R.string.em_time, R.string.em_name, R.string.em_location, R.string.em_organiser, R.drawable.uxbridge));
         eventMonths.add(new EventMonth(R.string.em_date, R.string.em_time, R.string.em_name, R.string.em_location, R.string.em_organiser, R.drawable.ux_20));
         eventMonths.add(new EventMonth(R.string.em_date, R.string.em_time, R.string.em_name, R.string.em_location, R.string.em_organiser, R.drawable.middleages));
-        EventMonthAdapter adapter = new EventMonthAdapter(getActivity(), eventMonths, R.color.myBottomNavigation);
+        EventMonthAdapter adapter = new EventMonthAdapter(getActivity(), eventMonths);
         ListView listView = rootView.findViewById(R.id.list_all);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

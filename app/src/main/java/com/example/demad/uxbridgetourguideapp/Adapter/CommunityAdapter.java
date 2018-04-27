@@ -1,5 +1,6 @@
 package com.example.demad.uxbridgetourguideapp.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -15,20 +16,15 @@ import com.example.demad.uxbridgetourguideapp.R;
 import java.util.ArrayList;
 
 public class CommunityAdapter extends ArrayAdapter<Community> {
-    public CommunityAdapter(Context context, ArrayList<Community> communities, int colorResourceId) {
+    public CommunityAdapter(Context context, ArrayList<Community> communities) {
         super(context, 0, communities);
-        int mColorResourceId;
-        mColorResourceId = colorResourceId;
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View listItemView = convertView;
-        //        Check if he existing view is being used, otherwise inflate the view
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.community_items, parent, false);
-        }
+        @SuppressLint("ViewHolder") View listItemView
+                = LayoutInflater.from(getContext()).inflate(R.layout.community_items, parent, false);
 //        Get the Community object at this position in the list
         Community currentCommunity = getItem(position);
         TextView comNameTextView = listItemView.findViewById(R.id.com_name_text_view);

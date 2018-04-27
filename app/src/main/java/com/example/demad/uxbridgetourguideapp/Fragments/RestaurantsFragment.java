@@ -65,7 +65,7 @@ public class RestaurantsFragment extends Fragment {
         restaurants.add(new Restaurants(R.string.r2_name, R.string.r2_cuisine, R.string.r2_mobile, R.string.r2_menu, R.string.r2_opening_hours, R.string.r2_address, R.string.r2_details, R.drawable.indian));
         restaurants.add(new Restaurants(R.string.r3_name, R.string.r3_cuisine, R.string.r3_mobile, R.string.r3_menu, R.string.r3_opening_hours, R.string.r3_address, R.string.r3_details, R.drawable.thai));
         //       Following the same procedures as of HomeFragment
-        RestaurantAdapter adapter = new RestaurantAdapter(getActivity(), restaurants, R.color.myBottomNavigation);
+        RestaurantAdapter adapter = new RestaurantAdapter(getActivity(), restaurants);
         ListView listView = rootView.findViewById(R.id.list_all);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

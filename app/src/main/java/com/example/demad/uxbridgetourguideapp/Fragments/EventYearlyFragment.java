@@ -68,7 +68,7 @@ public class EventYearlyFragment extends Fragment {
         eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         eventYears.add(new EventYear(R.string.eyswim_date, R.string.eyswim_time, R.string.eyswim_name, R.string.eyswim_location, R.string.eyswim_organiser));
         //        Following the same procedure as of HomeFragment for Documentation
-        EventYearAdapter adapter = new EventYearAdapter(getActivity(), eventYears, R.color.myBottomNavigation);
+        EventYearAdapter adapter = new EventYearAdapter(getActivity(), eventYears);
         ListView listView = rootView.findViewById(R.id.list_all);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -1,5 +1,6 @@
 package com.example.demad.uxbridgetourguideapp.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,20 +17,15 @@ import java.util.ArrayList;
 
 public class EventYearAdapter extends ArrayAdapter<EventYear> {
     //    Create a new EventYearAdapter object
-    public EventYearAdapter(Context context, ArrayList<EventYear> eventYears, int colorResourceID) {
+    public EventYearAdapter(Context context, ArrayList<EventYear> eventYears) {
         super(context, 0, eventYears);
-        int mColorResourceID;
-        mColorResourceID = colorResourceID;
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         //        Check if he existing view is being used, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.event_yearly_items, parent, false);
-        }
+        @SuppressLint("ViewHolder") View listItemView = LayoutInflater.from(getContext()).inflate(R.layout.event_yearly_items, parent, false);
 //        Same procedures as Home Adapter
         EventYear currentEventYear = getItem(position);
 //         Find TextViews in the event yearly items layout with the ID HomeText_text_view

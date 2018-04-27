@@ -73,7 +73,7 @@ public class HomeFragment extends android.support.v4.app.Fragment {
         homes.add(new Home(R.string.period_TwentiethCentury, R.string.text_TwentiethCentury, R.drawable.ux_20));
         //        Create HomeAdapter, whose data source is a list of homes. The
         //        adapter knows hot to create list items for each item in the list.
-        HomeAdapter adapter = new HomeAdapter(getActivity(), homes, R.color.colorAccent);
+        HomeAdapter adapter = new HomeAdapter(getActivity(), homes);
         //        Find the ListView object in the view hierarchy of the Activity.
         //        There should be a ListView with the view ID called home_list, which is declared in the
         ListView listView = rootView.findViewById(R.id.list_all);

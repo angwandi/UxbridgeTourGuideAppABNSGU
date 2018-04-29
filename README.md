@@ -27,20 +27,14 @@ Note: As the focus of this program is Java, only projects completed with Java as
 https://www.youtube.com/watch?v=MNp5X1No4Ts&feature=youtu.be
 
 
-![screenshot_1524865857](https://user-images.githubusercontent.com/31923567/39387308-cdf6820a-4a70-11e8-9067-5b240c229809.png)
+![screener_1524875357201](https://user-images.githubusercontent.com/31923567/39405945-d48c18f0-4ba6-11e8-9e9b-624d81b02c1a.png)
+![screener_1524875474769](https://user-images.githubusercontent.com/31923567/39405947-d7083942-4ba6-11e8-9ef7-b171ff0b7f20.png)
+![screener_1524875514480](https://user-images.githubusercontent.com/31923567/39405949-d94eb4f6-4ba6-11e8-8646-0b4ecacfce71.png)
+![screener_1524875570112](https://user-images.githubusercontent.com/31923567/39405950-db540a8a-4ba6-11e8-9e0c-2fa200867051.png)
+![screener_1524875602917](https://user-images.githubusercontent.com/31923567/39405951-dd3b647e-4ba6-11e8-9ad4-7446320312fb.png)
+![screener_1524875634350](https://user-images.githubusercontent.com/31923567/39405952-df3c1142-4ba6-11e8-8767-d99e3fce9b25.png)
+![screener_1524875675026](https://user-images.githubusercontent.com/31923567/39405953-e0ec176c-4ba6-11e8-8038-c55163844cb5.png)
+![screener_1524875704083](https://user-images.githubusercontent.com/31923567/39405955-e37cfc94-4ba6-11e8-8698-877b93ff4892.png)
 
-
-
-![screenshot_1524861493](https://user-images.githubusercontent.com/31923567/39385370-2b5b7670-4a68-11e8-9aad-2117c6837964.png)
-![screenshot_1524861500](https://user-images.githubusercontent.com/31923567/39385381-38502e5c-4a68-11e8-9514-94f64848c69d.png)
-![screenshot_1524861500](https://user-images.githubusercontent.com/31923567/39385384-43158788-4a68-11e8-98f1-e641ed46c27f.png)
-![screenshot_1524861503](https://user-images.githubusercontent.com/31923567/39385385-432c4202-4a68-11e8-94f4-7d5ed964b50c.png)
-![screenshot_1524861511](https://user-images.githubusercontent.com/31923567/39385386-43435be0-4a68-11e8-958f-102ab1d9b034.png)
-![screenshot_1524861517](https://user-images.githubusercontent.com/31923567/39385387-43587782-4a68-11e8-9bc4-bd2fd2f9af73.png)
-![screenshot_1524863375](https://user-images.githubusercontent.com/31923567/39385388-436f4516-4a68-11e8-8632-65e2d3458dd7.png)
-![screenshot_1524863382](https://user-images.githubusercontent.com/31923567/39385389-438511d4-4a68-11e8-8455-edad38bda22b.png)
-![screenshot_1524863387](https://user-images.githubusercontent.com/31923567/39385390-439ad000-4a68-11e8-8ccf-80a52f08c692.png)
-![screenshot_1524863392](https://user-images.githubusercontent.com/31923567/39385391-43b1bdec-4a68-11e8-8244-cd67135f0585.png)
-![screenshot_1524863397](https://user-images.githubusercontent.com/31923567/39385392-43ce2ce8-4a68-11e8-976c-74811ad9c977.png)
 
 > Made by 2ms

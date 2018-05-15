@@ -23,6 +23,8 @@ Note: As the focus of this program is Java, only projects completed with Java as
 
 > Made by 2ms
 
+## Udacity Honor Code and Community Code of Conduct : https://www.udacity.com/legal/community-guidelines
+
 
 https://www.youtube.com/watch?v=MNp5X1No4Ts&feature=youtu.be
 
